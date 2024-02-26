@@ -5,7 +5,12 @@ const notosansBold = Noto_Sans({ subsets: ["latin"], weight: "700" });
 const FirstColumn = () => {
   return (
     <>
-      <Image src="./assets/chrome.svg" height={70} width={70} alt=""></Image>
+      <Image
+        src="./assets/chrome.svg"
+        height={70}
+        width={70}
+        alt="chrome"
+      ></Image>
 
       <a href="https://chromewebstore.google.com/detail/ratepunk-hotel-booking-an/gdaioanblcnghddimngklkhgcbomfdck">
         <p>available in the</p>
