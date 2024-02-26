@@ -4,7 +4,6 @@ import { Noto_Sans } from "next/font/google";
 const notosansBold = Noto_Sans({ subsets: ["latin"], weight: "700" });
 type TypeSubmit = {
   onClick: () => void;
-
   text: string;
 };
 const Submit: React.FC<TypeSubmit> = ({ onClick, text }) => {

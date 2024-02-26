@@ -21,7 +21,7 @@ const Header = () => {
             alt="ratepunk Logo"
             width={120}
             height={24}
-          />
+          ></Image>
 
           <Hamburger onClick={toggleMenu} />
         </div>
