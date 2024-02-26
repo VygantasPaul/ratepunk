@@ -7,7 +7,7 @@ const FirstColumn = () => {
     <>
       <Image src="./assets/chrome.svg" height={70} width={70} alt=""></Image>
 
-      <a href="https://chromewebstore.google.com/">
+      <a href="https://chromewebstore.google.com/detail/ratepunk-hotel-booking-an/gdaioanblcnghddimngklkhgcbomfdck">
         <p>available in the</p>
         <p className={notosansBold.className}>chrome web store</p>
       </a>

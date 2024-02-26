@@ -12,7 +12,7 @@ const SecondColumn = () => {
         alt="chrome"
       ></Image>
 
-      <a href="https://www.apple.com/app-store/">
+      <a href="https://apps.apple.com/app/ratepunk/id1607823726">
         <p>available in the</p>
         <p className={notosansBold.className}>apple app store</p>
       </a>

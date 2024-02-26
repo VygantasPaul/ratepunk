@@ -31,7 +31,6 @@ const Footer = () => {
           </div>
           <div className={styles.column}>
             <Contact />
-
             <div className={styles.social}>
               <SocialLinks />
             </div>
