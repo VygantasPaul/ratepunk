@@ -1,0 +1,16 @@
+.hamburgermenu {
+  background: url(../../../../public/assets/menu.svg) no-repeat;
+  height: 18px;
+  width: 20px;
+}
+.close {
+  background: url(../../../../public/assets/close.svg) no-repeat;
+  height: 18px;
+  width: 20px;
+  display: block;
+}
+@media only screen and (min-width: 768px) {
+  .hamburgermenu {
+    display: none;
+  }
+}

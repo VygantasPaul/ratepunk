@@ -1,0 +1,30 @@
+.navmobile {
+  background-color: white;
+  position: fixed;
+  top: 77px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  padding-left: 1rem;
+
+  width: 100%;
+
+  ul {
+    li {
+      display: block;
+      text-align: left;
+      padding: 0.4rem 0;
+      a {
+        &:hover {
+          color: #4eb3e3;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 992px) {
+  .navmobile {
+    display: none;
+  }
+}

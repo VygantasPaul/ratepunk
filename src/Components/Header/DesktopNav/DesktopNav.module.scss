@@ -1,0 +1,21 @@
+.navdesktop {
+  display: none;
+}
+
+@media only screen and (min-width: 767px) {
+  .navdesktop {
+    display: block;
+
+    ul {
+      li {
+        display: inline-block;
+        padding: 0 1.3rem;
+        a {
+          &:hover {
+            color: #4eb3e3;
+          }
+        }
+      }
+    }
+  }
+}

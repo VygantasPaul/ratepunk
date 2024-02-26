@@ -1,0 +1,14 @@
+.success {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  img {
+    width: 1.5rem;
+  }
+  .successtext {
+    color: #1f343e;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+}

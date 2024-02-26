@@ -1,0 +1,22 @@
+.email {
+  padding: 0 1rem;
+  width: 100%;
+  &:focus {
+    outline: none;
+  }
+}
+
+.prepend {
+  display: inline-block;
+  background-color: #fff;
+  padding: 0.9rem 0rem 0.9rem 1rem;
+  text-align: left;
+  border-radius: 0.3rem;
+  border: 1px solid #1f343e;
+  width: 100%;
+  margin-bottom: 1rem;
+  .prepend_email {
+    display: flex;
+    align-items: center;
+  }
+}

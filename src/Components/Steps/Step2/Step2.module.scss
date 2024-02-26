@@ -1,0 +1,53 @@
+.step {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  .order1 {
+    flex: 1;
+    order: 2;
+  }
+  .order2 {
+    flex: 1;
+    order: 1;
+  }
+  img {
+    width: 8rem;
+    margin: 2rem auto 2rem;
+  }
+  .steptext {
+    color: #4eb3e3;
+    text-transform: uppercase;
+  }
+  .stepheading {
+    font-family: "Caveat Brush";
+    font-size: 1.7rem;
+    padding: 0.7rem 0;
+    color: #1f343e;
+  }
+  .text {
+    color: #1f343e;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .step {
+    display: flex;
+    text-align: left;
+    gap: 3rem;
+    padding-bottom: 4rem;
+    flex-direction: row;
+    .order1 {
+      flex: 1;
+      order: 1;
+    }
+    .order2 {
+      flex: 1;
+      order: 2;
+    }
+    img {
+      width: 9rem;
+      margin: 0;
+    }
+  }
+}

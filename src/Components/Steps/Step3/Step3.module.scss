@@ -1,0 +1,35 @@
+.step {
+  display: block;
+  align-items: center;
+  gap: 3rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  img {
+    width: 8rem;
+    margin: 2rem auto 2rem;
+  }
+  .steptext {
+    color: #4eb3e3;
+    text-transform: uppercase;
+  }
+  .stepheading {
+    font-family: "Caveat Brush";
+    font-size: 1.7rem;
+    padding: 0.7rem 0;
+    color: #1f343e;
+  }
+  .text {
+    color: #1f343e;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .step {
+    display: flex;
+    text-align: left;
+    img {
+      width: 17rem;
+      margin: 0;
+    }
+  }
+}

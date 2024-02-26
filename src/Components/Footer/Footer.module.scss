@@ -1,0 +1,136 @@
+.container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.footer {
+  background-color: #45565e;
+  text-align: center;
+  display: block;
+  gap: 1rem;
+  justify-content: center;
+  padding: 2rem;
+  color: #fff;
+  div:last-child {
+    border: none;
+    margin-bottom: 0;
+    justify-content: center;
+  }
+  .column {
+    display: flex;
+    align-items: center;
+    border: 1px solid #1f343e;
+    border-radius: 1rem;
+    padding: 0.4rem 1.8rem 0.4rem 1.6rem;
+    text-align: left;
+    margin-bottom: 2rem;
+    img {
+      margin-right: 0.5rem;
+      margin-bottom: 0.7rem;
+    }
+  }
+}
+.footersecond {
+  background-color: #f8f4f9;
+  display: block;
+  justify-content: center;
+  padding: 4rem 0;
+  ul {
+    li {
+      padding-bottom: 0.9rem;
+      a {
+        color: #1f343e;
+      }
+    }
+  }
+  a {
+    &:hover {
+      color: #4eb3e3;
+    }
+  }
+  .columntwo {
+    text-align: left;
+    .description {
+      padding: 2.3rem 0;
+      p {
+        color: #1f343e;
+      }
+    }
+    .copyrights {
+      padding-bottom: 2rem;
+      color: #6d7a80;
+    }
+  }
+  > .container {
+    display: block;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    gap: 3rem;
+  }
+
+  .column {
+    text-align: left;
+    width: 100%;
+    .social {
+      padding-top: 4.8rem;
+    }
+    h2 {
+      padding-bottom: 1.5rem;
+      font-weight: 700;
+      letter-spacing: 0.2rem;
+      font-size: 1.1rem;
+      color: #1f343e;
+    }
+  }
+}
+@media only screen and (min-width: 767px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .footer {
+    display: flex;
+    padding: 2rem;
+    .column {
+      padding: 0.4rem 3.8rem 0.4rem 1.6rem;
+      margin-bottom: 0;
+    }
+  }
+  .footersecond {
+    background-color: #f8f4f9;
+    display: flex;
+    justify-content: center;
+
+    > .container {
+      display: flex;
+      text-align: center;
+    }
+
+    .columntwo {
+      width: 70%;
+      text-align: left;
+      .copyrights {
+        padding-bottom: 0rem;
+      }
+    }
+    .column {
+      width: 30%;
+      text-align: left;
+    }
+  }
+
+  .container {
+    max-width: 990px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1050px;
+  }
+}

@@ -1,0 +1,77 @@
+.container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.header {
+  line-height: 20px;
+  padding: 1rem 0;
+  border-bottom: 1px solid black;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 1;
+  img {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  > .container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav {
+    display: none;
+    ul {
+      li {
+        display: block;
+        padding: 0 1.2rem;
+        a {
+          &:hover {
+            color: #4eb3e3;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .header {
+    img {
+      margin: 0;
+      padding-bottom: 0;
+    }
+    > .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    max-width: 990px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1050px;
+  }
+}
