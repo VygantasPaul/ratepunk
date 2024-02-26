@@ -1,8 +1,8 @@
 import React from "react";
-
+import styles from "./QuickLinks.module.scss";
 const QuickLinks = () => {
   return (
-    <>
+    <div className={styles.quicklinkswrap}>
       <h2>QUICK LINKS</h2>
       <ul>
         <li>
@@ -21,7 +21,7 @@ const QuickLinks = () => {
           <a href="">Privacy Policy</a>
         </li>
       </ul>
-    </>
+    </div>
   );
 };
 

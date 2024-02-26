@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./SocialLinks.module.scss";
 const SocialLinks = () => {
   return (
-    <div>
+    <>
       <h2>SOCIAL</h2>
       <div className={styles.socialicons}>
         <a href="https://www.instagram.com" className={styles.icon}>
@@ -47,7 +47,7 @@ const SocialLinks = () => {
           ></Image>
         </a>
       </div>
-    </div>
+    </>
   );
 };
 

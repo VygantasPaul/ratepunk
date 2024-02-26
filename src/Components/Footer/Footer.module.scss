@@ -19,6 +19,7 @@
     margin-bottom: 0;
     justify-content: center;
   }
+
   .column {
     display: flex;
     align-items: center;
@@ -38,6 +39,7 @@
   display: block;
   justify-content: center;
   padding: 4rem 0;
+
   ul {
     li {
       padding-bottom: 0.9rem;
@@ -75,8 +77,9 @@
   .column {
     text-align: left;
     width: 100%;
+
     .social {
-      padding-top: 4.8rem;
+      padding-top: 2.8rem;
     }
     h2 {
       padding-bottom: 1.5rem;
@@ -93,12 +96,22 @@
   }
 }
 @media only screen and (min-width: 992px) {
+  .footersecond {
+    .column {
+      .social {
+        padding-top: 4.8rem;
+      }
+    }
+  }
   .footer {
     display: flex;
     padding: 2rem;
     .column {
       padding: 0.4rem 3.8rem 0.4rem 1.6rem;
       margin-bottom: 0;
+      .social {
+        padding-top: 4.8rem;
+      }
     }
   }
   .footersecond {
